@@ -1,4 +1,4 @@
-package threadpol;
+package threadpool;
 
 import java.util.LinkedList;
 
@@ -51,4 +51,4 @@ public class WorkQueue {
 		new WorkQueue(2);
 	   }
 }
-//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
+
