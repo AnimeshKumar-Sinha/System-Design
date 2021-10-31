@@ -1,13 +1,19 @@
 package threadpool;
 
+/*
+ * Please refer to the article linked above, understand what thread pools are, and implement them.
+*/
+
 import java.util.LinkedList;
 
 public class WorkQueue {
+	
 	private final int nThreads;
 	private final PoolWorker[] threads;
 	private final LinkedList queue;
 
 	public WorkQueue(int nThreads) {
+		
 		this.nThreads = nThreads;
 		queue = new LinkedList();
 		threads = new PoolWorker[nThreads];
