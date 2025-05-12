@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Potpie AI Modular Architecture">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Code Source Layer -->
+        <mxCell id="2" value="Codebase (Git)" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="160" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Knowledge Graph -->
+        <mxCell id="3" value="Knowledge Graph (Neo4j, Postgres)" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Core Agents -->
+        <mxCell id="4" value="Core Agents" style="shape=swimlane;startSize=20;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="300" y="60" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Testing Agent
+Code Change Detector
+Regression Planner
+Debugging Agent" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="4">
+          <mxGeometry width="200" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- UI Agents -->
+        <mxCell id="6" value="UI Agents" style="shape=swimlane;startSize=20;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="UI Modernization Agent
+Angular Upgrade Agent
+Design Refactor Agent" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="6">
+          <mxGeometry width="200" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Interfaces -->
+        <mxCell id="8" value="Interfaces" style="shape=swimlane;startSize=20;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="540" y="60" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="VSCode Extension
+Slack Integration
+CI/CD API" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="8">
+          <mxGeometry width="200" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Outcomes -->
+        <mxCell id="10" value="Automated Development Tasks" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="540" y="260" width="240" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Connections -->
+        <mxCell id="11" style="endArrow=block;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" style="endArrow=block;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" style="endArrow=block;" edge="1" parent="1" source="3" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" style="endArrow=block;" edge="1" parent="1" source="4" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" style="endArrow=block;" edge="1" parent="1" source="6" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" style="endArrow=block;" edge="1" parent="1" source="8" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
