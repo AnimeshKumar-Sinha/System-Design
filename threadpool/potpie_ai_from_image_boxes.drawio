@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Potpie AI Full Agent Breakdown">
+    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="100" value="Potpie AI Full Agent Breakdown" style="text;html=1;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="300" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Left side -->
+        <mxCell id="101" value="Codebase (Git)" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="102" value="Knowledge Graph (Neo4j, Postgres)" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Agents Stack -->
+        <mxCell id="103" value="Testing Agent" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="104" value="UI Modernization Agent" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="105" value="Angular Upgrade Agent" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="300" y="210" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="106" value="Code Generation Agent" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="107" value="Code Level Design Agent" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="108" value="Design Test Agent" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="180" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Interfaces and Automation -->
+        <mxCell id="109" value="Interfaces" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="110" value="(VSCode, Slack, API)" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="540" y="150" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="111" value="Automated Tasks:\nTesting, Deployment, Debugging, UI Upgrade" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="160" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom -->
+        <mxCell id="112" value="Neo4j" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="113" value="Git" style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="80" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
